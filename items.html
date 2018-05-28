@@ -11,17 +11,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-	<nav class="navbar navbar-default" role="navigation">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<!-- Nav options are grouped into button for mobile display -->
 		<div class="navbar-header">
 			<!-- Button to expand navi options -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-options">
 				<span class="sr-only">Explore</span>
-				<!-- 3 line icon in button -->
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<!-- 3 line icon inside button -->
+				<img src="static/img/bookIcon.png">
 			</button>
 			<a class="navbar-brand" href="index.html">MHW Explorer</a>		
 		</div>
@@ -30,15 +28,15 @@
 		<div class="collapse navbar-collapse" id="nav-options">
 			<ul class="nav navbar-nav">
 				<li><a href="weapons.html">Weapons</a></li>
-				<li><a href="armor.html">Armor</a></li>
-				<li class="active"><a href="items.html">Items</a></li>
+				<li><a href="armour.html">Armour</a></li>
+				<li><a href="items.html">Items</a></li>
 				<li><a href="skills.html">Skills</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<div class="container">
-		<h1 class="text-center">Item list</h1>
+	<div class="container" id="navspace">
+		<h1 class="text-center">Item Info</h1>
 	</div>
 </body>
 

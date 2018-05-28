@@ -30,7 +30,7 @@ def getValue(response, key):
 if __name__ == "__main__":
 
     param = 'dodogama-mail'
-    resp = get('armor', param)
+    resp = get('armour', param)
     name = getValue(resp, 'name')
     img = getValue(resp, 'assets')
 

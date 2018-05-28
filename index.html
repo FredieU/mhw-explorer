@@ -11,17 +11,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-	<nav class="navbar navbar-default" role="navigation">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<!-- Nav options are grouped into button for mobile display -->
 		<div class="navbar-header">
 			<!-- Button to expand navi options -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-options">
 				<span class="sr-only">Explore</span>
 				<!-- 3 line icon inside button -->
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<img src="static/img/bookIcon.png">
 			</button>
 			<a class="navbar-brand" href="index.html">MHW Explorer</a>		
 		</div>
@@ -30,18 +28,18 @@
 		<div class="collapse navbar-collapse" id="nav-options">
 			<ul class="nav navbar-nav">
 				<li><a href="weapons.html">Weapons</a></li>
-				<li><a href="armor.html">Armor</a></li>
+				<li><a href="armour.html">Armour</a></li>
 				<li><a href="items.html">Items</a></li>
 				<li><a href="skills.html">Skills</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<div class="container">
+	<div class="container" id="navspace">
 		<div class="row">
 			<div class="col-sm-6 col-md-3">
 				<a href="weapons.html" class="thumbnail">
-					<img class="img-responsive center-block" src="static/img/weaponShowcase.png" alt="Weapon image">
+					<img class="img-responsive center-block" src="static/img/weaponIcon.png" alt="Weapon image">
 					<div class="text-center">
 						<hr class="thumbnail-divider">
 						<h3>Weapons</h3>
@@ -49,11 +47,29 @@
 				</a>
 			</div>
 			<div class="col-sm-6 col-md-3">
-				<a href="armor.html" class="thumbnail">
-					<img class="img-responsive center-block" src="static/img/armorShowcase.png" alt="Armor image">
+				<a href="armour.html" class="thumbnail">
+					<img class="img-responsive center-block" src="static/img/armourIcon.png" alt="armour image">
 					<div class="text-center">
 						<hr class="thumbnail-divider">
-						<h3>Armor</h3>
+						<h3>Armour</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="items.html" class="thumbnail">
+					<img class="img-responsive center-block" src="static/img/itemIcon.png" alt="Item image">
+					<div class="text-center">
+						<hr class="thumbnail-divider">
+						<h3>Items</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="skills.html" class="thumbnail">
+					<img class="img-responsive center-block" src="static/img/skillIcon.png" alt="Skill image">
+					<div class="text-center">
+						<hr class="thumbnail-divider">
+						<h3>Skills</h3>
 					</div>
 				</a>
 			</div>
